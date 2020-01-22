@@ -1,0 +1,125 @@
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) { ... }
+
+// Small devices (landscape phones, less than 768px)
+@media (max-width: 767.98px) { ... }
+
+// Medium devices (tablets, less than 992px)
+@media (max-width: 991.98px) { ... }
+
+// Large devices (desktops, less than 1200px)
+@media (max-width: 1199.98px) { ... }
+
+html {
+    background-color: #FFD6B4;
+}
+
+/* https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+*/
+
+ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+li {
+    width: 10%;
+    list-style-type: none;
+    font-family: helvetica neue;
+    font-weight: 600;
+    padding: 1px;;
+    color: #2B025C;
+    font-size: 1.3em;
+}
+
+main {
+    margin-top: -100px;
+}
+
+img {
+    position: relative;
+    bottom: -10em;
+    z-index: -1; 
+}
+
+
+
+.intro {
+    background-color: #FFA152;
+    box-sizing: border-box;
+    width: 80%;
+    padding: 15px;
+    margin: 3em;
+    height: 500px;
+}
+
+h1 {
+   color: #2B025C;
+    font-weight: 600;
+    font-size: 5em;
+    margin-left: 30px;
+    margin-bottom: 0px;
+    margin-top: 25px;
+    font-style: italic; 
+    font-family: helvetica neue;
+    
+}
+
+p {
+    color: white;
+    font-family: helvetica neue;
+    font-size: 20px;
+    font-weight: 100;
+    margin-left: 20%;
+     margin-right: 20%;
+    
+}
+
+
+.landen1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space;
+    align-items: 
+    
+}
+.landen2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: 
+}
+
+h2 {
+    background-color: #FFA152;
+    padding: 5em;
+    width: 10em;
+    margin: 2em;
+    text-align: center;
+    font-family: helvetica neue;
+    font-weight: 600;
+}
+
+.categorie {
+    width: 5em;
+}
+
+.categorienamen {
+  
+}
+
+
+
+
+/*
+.navbar {
+    margin-left: 70%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.headertitle {
+    display: flex;
+    justify-content: flex-start;
+}*/
