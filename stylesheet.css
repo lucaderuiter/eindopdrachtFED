@@ -17,19 +17,19 @@ html {
 /* https://css-tricks.com/snippets/css/a-guide-to-flexbox/
 */
 
-ul {
+nav ul {
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-end;
     align-items: center;
 }
 
-li {
+nav li {
     width: 10%;
     list-style-type: none;
     font-family: helvetica neue;
     font-weight: 600;
-    padding: 1px;;
+    padding-right: 40px;;
     color: #2B025C;
     font-size: 1.3em;
 }
@@ -38,10 +38,12 @@ main {
     margin-top: -100px;
 }
 
-img {
+main img {
     position: relative;
     bottom: -10em;
     z-index: -1; 
+    width: 250px;
+    
 }
 
 
@@ -50,48 +52,43 @@ img {
     background-color: #FFA152;
     box-sizing: border-box;
     width: 80%;
-    padding: 15px;
+    padding: 30px;
+    padding-right: 100px;
+    padding-left: 100px;
     margin: 3em;
-    height: 500px;
 }
 
-h1 {
+main h1 {
    color: #2B025C;
     font-weight: 600;
     font-size: 5em;
-    margin-left: 30px;
-    margin-bottom: 0px;
+    margin-left: 2%;
+    margin-bottom: 0%;
     margin-top: 25px;
     font-style: italic; 
     font-family: helvetica neue;
     
 }
 
-p {
+main p {
     color: white;
     font-family: helvetica neue;
     font-size: 20px;
     font-weight: 100;
-    margin-left: 20%;
-     margin-right: 20%;
+    margin-left: 13%;
+    margin-right: 20px;
     
 }
 
+main article ul {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
 
-.landen1 {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space;
-    align-items: 
-    
-}
-.landen2 {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: 
 }
 
-h2 {
+main article li {
+    list-style-type: none;
     background-color: #FFA152;
     padding: 5em;
     width: 10em;
@@ -99,27 +96,12 @@ h2 {
     text-align: center;
     font-family: helvetica neue;
     font-weight: 600;
-}
-
-.categorie {
-    width: 5em;
-}
-
-.categorienamen {
-  
+    color: #2B025C;
+    font-size: 1.3em;
 }
 
 
 
 
-/*
-.navbar {
-    margin-left: 70%;
-    display: flex;
-    justify-content: space-between;
-}
 
-.headertitle {
-    display: flex;
-    justify-content: flex-start;
-}*/
+
