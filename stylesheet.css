@@ -27,7 +27,7 @@
     main {
         margin-top: -100px;
     }
-    main img {
+    .orangeslice {
         position: relative;
         bottom: -1em;
         /* left: -6em; */
@@ -35,6 +35,17 @@
         z-index: -1;
         width: 250px;
     }
+    
+    .orangeslice3 {
+        position: relative;
+        bottom: -25em;
+        left: -15em; 
+        margin-left: 5em;
+        z-index: -3;
+        width: 80px;
+    } 
+
+
     .intro {
         background-color: #FFA152;
         /* box-sizing: border-box; */
@@ -42,7 +53,7 @@
         /* padding: 30px; */
         /* padding-right: 100px; */
         /* padding-left: 100px; */
-        margin-top: -9em;
+        margin-top: -8em;
         margin-left: 1em;
     }
     main h1 {
@@ -70,6 +81,7 @@
         display: flex;
         /*     justify-content: space-around; */
         flex-wrap: wrap;
+        padding: 0px;
     }
     /*https://stackoverflow.com/questions/4264527/vertical-text-direction*/
     main article li {
@@ -77,7 +89,7 @@
         background-color: #FFA152;
         /* padding: 5em; */
         /* padding-top: 81px; */
-        width: 20em;
+        width: 310px;
         height: 15em;
         margin-top: 2em;
         margin-left: auto;
@@ -90,16 +102,23 @@
     main article ul li h2 {
         writing-mode: tb-rl;
         transform: rotate(180deg);
-        margin-left: -22px;
+        margin-left: -26px;
         margin-top: 60px;
         text-align: center;
+        /* width: 92px; */
+        height: 150px;
+        z-index: 2;
+        font-size: 2em;
     }
     main article li img {
-        margin-top: -250px;
-        margin-left: 1px;
-        width: 20em;
+      margin-right: auto;
+        margin-left: auto;
+        margin-top: -210px;
+        /* margin-bottom: -18px; */
+        width: 310px;
         height: 15em;
         z-index: 1;
+        position: initial;
     }
 }
 
