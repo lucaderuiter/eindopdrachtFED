@@ -1,217 +1,233 @@
-/* MOBILE MEDIAQUERIE */
+/* MOBILE screen */
 
+
+/*
 @media screen and (min-width: 60px) {
-    body {
-        background-color: #FFD6B4;
-    }
-    /* https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+
 */
-    nav ul {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: flex-end;
-        align-items: center;
-        margin-right: 23px;
-    }
-    nav li {
-        list-style-type: none;
-        font-family: helvetica neue;
-        font-weight: 600;
-        padding-right: 15px;
-        color: #2B025C;
-        font-size: 1em;
-        text-decoration: underline;
-    }
-    
-    nav a:visited {
-        color: #2B025C;
-        
-    }
-    
-    nav a:hover {
-        color: white;
-        transition: 0.2s;
-    }
-    
-    
-    main {
-        margin-top: -100px;
-    }
-    .orangeslice {
-        position: relative;
-        bottom: -1em;
-        /* left: -6em; */
-        margin-left: -6em;
-        z-index: -1;
-        width: 250px;
-    }
-    
-    .orangeslice3 {
-        position: relative;
-        bottom: -25em;
-        left: -15em; 
-        margin-left: 5em;
-        z-index: -3;
-        width: 80px;
-    } 
-    
-    .lijn1 {
-        position: absolute;
-        width: 10px;
-        margin-top: 3em;
-        height: fit-content;
-        margin-left: 13%;
-        z-index: -1;
-    }
-    
-    .lijn2 {
-        position: absolute;
+
+
+/* https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+*/
+
+body {
+    background-color: #FFD6B4;
+}
+
+nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 23px;
+}
+
+nav li {
+    list-style-type: none;
+    font-family: helvetica neue;
+    font-weight: 600;
+    padding-right: 15px;
+    color: #ffffff;
+    font-size: 1em;
+    text-decoration: underline;
+}
+
+nav a:visited {
+    color: #ffffff;
+}
+
+nav a:hover {
+    color: #2B025C;
+    transition: 0.2s;
+}
+
+main {
+    margin-top: -100px;
+}
+
+.orangeslice {
+    position: relative;
+    bottom: -1em;
+    /* left: -6em; */
+    margin-left: -6em;
+    z-index: -1;
+    width: 250px;
+}
+
+.orangeslice3 {
+    position: relative;
+    bottom: -25em;
+    left: -15em;
+    margin-left: 5em;
+    z-index: -3;
+    width: 80px;
+}
+
+.lijn1 {
+    position: absolute;
+    width: 10px;
+    margin-top: 3em;
+    height: fit-content;
+    margin-left: 13%;
+    z-index: -1;
+}
+
+.lijn2 {
+    position: absolute;
     margin-top: 35em;
     height: 69em;
     margin-left: -10em;
     z-index: -1;
-        width: 10px;
-    }
-    
-
-    .intro {
-        background-color: #FFA152;
-        /* box-sizing: border-box; */
-        width: 89%;
-        /* padding: 30px; */
-        /* padding-right: 100px; */
-        /* padding-left: 100px; */
-        margin-top: -8em;
-        margin-left: 1em;
-    }
-    main h1 {
-        color: #2B025C;
-        font-weight: 800;
-        font-size: 3em;
-        margin-left: 2%;
-        margin-bottom: 0%;
-        margin-top: 25px;
-        font-style: italic;
-        font-family: helvetica neue;
-        padding: 17px;
-    }
-    main p {
-        color: white;
-        font-family: helvetica neue;
-        font-size: 17px;
-        font-weight: 100;
-        margin-left: 13%;
-        margin-right: 20px;
-        padding-left: 14px;
-        padding-bottom: 43px;
-    }
-    main article ul {
-        display: flex;
-        /*     justify-content: space-around; */
-        flex-wrap: wrap;
-        padding: 0px;
-    }
-    
-    main article li {
-        list-style-type: none;
-        background-color: #FFA152;
-        /* padding: 5em; */
-        /* padding-top: 81px; */
-        width: 310px;
-        height: 15em;
-        margin-top: 2em;
-        margin-left: auto;
-        margin-right: auto;
-        font-family: helvetica neue;
-        /* font-size: 1.3em; */
-    }
-    
-    /*https://stackoverflow.com/questions/4264527/vertical-text-direction*/
-    main article ul li h2 {
-        writing-mode: tb-rl;
-        transform: rotate(180deg);
-        margin-left: -26px;
-        margin-top: 60px;
-        text-align: center;
-        font-weight: 600;
-        /* width: 92px; */
-        height: 150px;
-        z-index: 2;
-        font-size: 2em;
-        color: #2B025C;
-    }
-    main article li img {
-      margin-right: auto;
-        margin-left: auto;
-        margin-top: -210px;
-        /* margin-bottom: -18px; */
-        width: 310px;
-        height: 15em;
-        z-index: 1;
-        position: initial;
-    }
-    
-    main article li img:hover {
-        opacity: 60%;
-        transition: 0.2s;
-        
-    }
+    width: 10px;
 }
+
+.intro {
+    background-color: #FFA152;
+    /* box-sizing: border-box; */
+    width: 89%;
+    /* padding: 30px; */
+    /* padding-right: 100px; */
+    /* padding-left: 100px; */
+    margin-top: -8em;
+    margin-left: 1em;
+}
+
+main h1 {
+    color: #2B025C;
+    font-weight: 800;
+    font-size: 3em;
+    margin-left: 2%;
+    margin-bottom: 0%;
+    margin-top: 25px;
+    font-style: italic;
+    font-family: helvetica neue;
+    padding: 17px;
+}
+
+main p {
+    color: white;
+    font-family: helvetica neue;
+    font-size: 17px;
+    font-weight: 100;
+    margin-left: 13%;
+    margin-right: 20px;
+    padding-left: 14px;
+    padding-bottom: 43px;
+}
+
+main article ul {
+    display: flex;
+    /*     justify-content: space-around; */
+    flex-wrap: wrap;
+    padding: 0px;
+}
+
+main article li {
+    list-style-type: none;
+    background-color: #FFA152;
+    /* padding: 5em; */
+    /* padding-top: 81px; */
+    width: 310px;
+    height: 15em;
+    margin-top: 2em;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: helvetica neue;
+    /* font-size: 1.3em; */
+}
+
+
+/*https://stackoverflow.com/questions/4264527/vertical-text-direction*/
+
+main article ul li h2 {
+    writing-mode: tb-rl;
+    transform: rotate(180deg);
+    margin-left: -26px;
+    margin-top: 60px;
+    text-align: center;
+    font-weight: 600;
+    /* width: 92px; */
+    height: 150px;
+    z-index: 2;
+    font-size: 2em;
+    color: #2B025C;
+}
+
+main article li img {
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: -210px;
+    /* margin-bottom: -18px; */
+    width: 310px;
+    height: 15em;
+    z-index: 1;
+    position: initial;
+}
+
+main article li img:hover {
+    opacity: 60%;
+    transition: 0.2s;
+}
+
 
 /*categorie pagina*/
+
 .categorie h1 {
-    margin-top: 2em;
+    margin-top: 100px;
     font-style: normal;
     background-color: #FFA152;
-    width: 4em;
-    
+    width: 3em;
 }
-
-/*
-.categorie article ul {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-}
-*/
 
 .categorie article li {
-    margin: 18px;
-    width: 200px;
-    height: 150px;
-}
-
-.categorie article li img {
-    width: 200px;
-    height: 150px;
-    margin: 10px;
+    margin-top: 5em;
 }
 
 .categorie article li h2 {
-    writing-mode: tb-lr;
     transform: rotate(270deg);
     font-size: 1.5em;
-    margin-left: 55px;
+    margin-left: 3em;
+    margin-top: -80px;
+    margin-bottom: -57px;
+    text-align: start;
+    height: 124px;
+    width: 44px;
+    z-index: 3;
+    background-color: #FFA152;
+    /* padding-top: 93px; */
+    padding-top: 13px;
+    position: relative;
 }
 
-
-
-
-
+.categorie article li img {
+    margin-top: 0px;
+}
 
 
 /*footer op elke pagina*/
 
 footer {
-    background-color: lightgray;
+    background-color: #232323;
     border-top-style: solid;
-    border-top-color: grey;
-    border-top-width: 15px;
+    border-top-color: black;
+    border-top-width: 10px;
     margin-left: -8px;
     margin-right: -8px;
     margin-top: 100px;
     padding: 15px;
-    
+}
+
+footer section h3 {
+    color: white;
+    font-family: helvetica neue;
+    font-weight: 400;
+    padding: 15px;
+}
+
+footer section p {
+    color: white;
+    font-family: helvetica neue;
+    font-weight: 100;
 }
 
 footer section {
@@ -222,7 +238,7 @@ footer section {
 footer hr {
     width: 16em;
     border-style: ridge;
-    border-color: orange;
+    border-color: #FFA152;
 }
 
 footer form {
@@ -231,13 +247,31 @@ footer form {
 }
 
 footer form p {
-    margin-bottom: 0px;
+    color: white;
+    font-family: helvetica neue;
+    font-weight: 100;
+    margin-bottom: 3px;
 }
 
 footer form textarea {
     margin: 0px;
     width: 300px;
     height: 65px;
+}
+
+
+/*
+https://stackoverflow.com/questions/17042201/how-to-style-input-and-submit-button-with-css
+*/
+
+footer form input[type=submit] {
+    width: 100px;
+    font-family: helvetica neue;
+    background-color: #FFA152;
+    color: white;
+    font-size: 18px;
+    border-style: none;
+    border-radius: 4px;
 }
 
 
@@ -250,32 +284,8 @@ footer form textarea {
     }
     /* https://css-tricks.com/snippets/css/a-guide-to-flexbox/
 */
-    nav ul {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: flex-end;
-        align-items: center;
-    }
-    nav li {
-        list-style-type: none;
-        font-family: helvetica neue;
-        font-weight: 600;
-        padding-right: 15px;
-        color: #2B025C;
-        font-size: 1.3em;
-        text-decoration: underline;
-    }
-    nav {
-        margin-right: 100px;
-    }
     main {
         margin-top: -100px;
-    }
-    main img {
-        position: relative;
-        bottom: -1em;
-        z-index: -1;
-        width: 280px;
     }
     .intro {
         background-color: #FFA152;
@@ -286,6 +296,12 @@ footer form textarea {
         padding-top: 20px;
         padding-bottom: 20px;
         margin-left: 5%;
+    }
+    main img {
+        position: relative;
+        bottom: -1em;
+        z-index: -1;
+        width: 280px;
     }
     main h1 {
         color: #2B025C;
