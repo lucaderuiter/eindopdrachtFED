@@ -136,7 +136,6 @@ main article li {
     /* font-size: 1.3em; */
 }
 
-
 /*https://stackoverflow.com/questions/4264527/vertical-text-direction*/
 
 main article ul li h2 {
@@ -173,7 +172,7 @@ main article li img:hover {
 /*categorie pagina*/
 
 .categorie h1 {
-    margin-top: 100px;
+    margin-top: 180px;
     font-style: normal;
     background-color: #FFA152;
     width: 3em;
