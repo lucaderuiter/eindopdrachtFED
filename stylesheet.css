@@ -44,6 +44,11 @@
         z-index: -3;
         width: 80px;
     } 
+    
+    .lijn {
+        position: relative;
+        width: 10px;
+    }
 
 
     .intro {
