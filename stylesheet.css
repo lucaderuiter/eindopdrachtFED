@@ -111,7 +111,7 @@
         flex-wrap: wrap;
         padding: 0px;
     }
-    /*https://stackoverflow.com/questions/4264527/vertical-text-direction*/
+    
     main article li {
         list-style-type: none;
         background-color: #FFA152;
@@ -123,20 +123,22 @@
         margin-left: auto;
         margin-right: auto;
         font-family: helvetica neue;
-        font-weight: 600;
-        color: #2B025C;
         /* font-size: 1.3em; */
     }
+    
+    /*https://stackoverflow.com/questions/4264527/vertical-text-direction*/
     main article ul li h2 {
         writing-mode: tb-rl;
         transform: rotate(180deg);
         margin-left: -26px;
         margin-top: 60px;
         text-align: center;
+        font-weight: 600;
         /* width: 92px; */
         height: 150px;
         z-index: 2;
         font-size: 2em;
+        color: #2B025C;
     }
     main article li img {
       margin-right: auto;
@@ -150,16 +152,92 @@
     }
     
     main article li img:hover {
-        opacity: 70%;
+        opacity: 60%;
         transition: 0.2s;
         
     }
 }
 
-footer section form {
-    color: black;
-   
+/*categorie pagina*/
+.categorie h1 {
+    margin-top: 2em;
+    font-style: normal;
+    background-color: #FFA152;
+    width: 4em;
     
+}
+
+/*
+.categorie article ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+*/
+
+.categorie article li {
+    margin: 18px;
+    width: 200px;
+    height: 150px;
+}
+
+.categorie article li img {
+    width: 200px;
+    height: 150px;
+    margin: 10px;
+}
+
+.categorie article li h2 {
+    writing-mode: tb-lr;
+    transform: rotate(270deg);
+    font-size: 1.5em;
+    margin-left: 55px;
+}
+
+
+
+
+
+
+
+/*footer op elke pagina*/
+
+footer {
+    background-color: lightgray;
+    border-top-style: solid;
+    border-top-color: grey;
+    border-top-width: 15px;
+    margin-left: -8px;
+    margin-right: -8px;
+    margin-top: 100px;
+    padding: 15px;
+    
+}
+
+footer section {
+    height: auto;
+    text-align: center;
+}
+
+footer hr {
+    width: 16em;
+    border-style: ridge;
+    border-color: orange;
+}
+
+footer form {
+    margin-top: 30px;
+    text-align: center;
+}
+
+footer form p {
+    margin-bottom: 0px;
+}
+
+footer form textarea {
+    margin: 0px;
+    width: 300px;
+    height: 65px;
 }
 
 

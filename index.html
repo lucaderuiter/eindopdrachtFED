@@ -35,7 +35,7 @@
                 <br> Here you can find out about four different countries and how they use the colour orange in their culture.</p>
         </article>
         
-         <!-- Landen (categorie) -->
+         <!-- Landen -->
     <article>
        <ul>
         <li> <h2>NEDERLAND</h2> <img src="img/kingsday6.jpg">  </li>
@@ -51,22 +51,29 @@
 <!--   Formulier voor de gebruiker-->
     <footer>
        <section>
-       <h3> What does the color orange mean in your country?</h3>
-            <p>You can tell us here!</p>
-        <form> 
+           <h3> What does the color orange mean in your country?</h3>
+           <p> You can tell us here!</p>
+        </section>
+        <hr>
+        <form id="form">
             <p>Name</p>
             <input type="text" name="name">
-            <p>Country</p>
+            
+            <p> Country</p>
             <input type="text" name="country">
-            <p>Date</p>
+            
+             <p> Date </p>
             <input type="date" name="date">
-            <p>Description</p>
-            <input type="text" name="desciption">
             
+             <p>Description</p>
+            <textarea name="description" form="form"></textarea>
             
-        
-        </form>
-        </section>
+            <br>
+            <br>
+            
+            <input type="submit" value="submit">
+    </form>
+    
     </footer>
 
 </body>
