@@ -1,12 +1,6 @@
 /* MOBILE screen */
 
 
-/*
-@media screen and (min-width: 60px) {
-
-*/
-
-
 /* https://css-tricks.com/snippets/css/a-guide-to-flexbox/
 */
 
@@ -200,6 +194,70 @@ main article li img:hover {
 
 .categorie article li img {
     margin-top: 0px;
+}
+
+.lijn3 {
+    position: absolute;
+    z-index: -1;
+    margin-top: -8em;
+    margin-left: 60%;
+    width: 10px;
+    height: fit-content;
+}
+
+/*Detail pagina*/
+
+main article {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+main article .gelooftekst {
+    justify-content: flex-start;
+    z-index: -5;
+    width: 500px;
+}
+
+main article .geloofimg {
+    justify-content: flex-end;
+    width: 500px;
+}
+
+
+main article section h2 {
+    margin-top: 150px;
+    font-family: helvetica neue;
+    color: #2B025C;
+    margin-bottom: -10px;
+    font-size: 2em;
+}
+
+main article section p {
+    background-color: #FFA152;
+    margin: 0px;
+    margin-right: 150px;
+    padding: 20px;
+    padding-bottom: 100px;
+}
+
+main article section h3 {
+    position: relative;
+    color: #2B025C;
+    font-family: helvetica neue;
+    font-weight: 500;
+    background-color: #FFA152;
+    margin-left: 360px;
+    padding: 20px;
+    padding-top:30px;
+    padding-bottom: 10px;
+    margin-bottom: -15px;
+    margin-top: -120px;
+}
+
+main article section img {
+    height: 300px;
+    width: 250px;
+    margin-left: 234px;
 }
 
 

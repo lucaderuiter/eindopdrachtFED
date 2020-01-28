@@ -1,49 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>FED site</title>
     <link rel="stylesheet" href="stylesheet.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
+
 <body>
-   <header>
-   <nav>
-    <ul> 
-        <li> <a href="index.html">HOME </a></li>
-        <li>FILTER</li>
-    </ul>  
-    </nav>
+    <header>
+        <nav>
+            <ul>
+                <li> <a href="index.html">HOME</a></li>
+                <li>FILTER</li>
+            </ul>
+        </nav>
     </header>
+    <main>
+        <article>
+            <section class="gelooftekst">
+                <h2>INDIA</h2>
+                <p>Designers and devout Hindus have something in common: They both know color plays an important role in creating an environment that enhances mood and well-being. In Hinduism, proper use of color is believed to keep people happy and cheerful. Hindu artists use color when representing the deities to symbolize their essential qualities.
+                <br> <br>
+                Saffron, the burnt-orange hue of the precious spice, is also a sacred color in Hinduism. It represents fire and the burning away of impurities, and is the color worn by holy men.
+                </p>
+            </section>
+
+            <section class="geloofimg">
+                <h3> GELOOF </h3>
+                <img src="img/hindu-monk-2.jpg" alt="geloof">
+            </section>
+
+        </article>
+
+    </main>
+
+<!--   https://www.w3schools.com/html/html_form_input_types.asp-->
+<!--   Formulier voor de gebruiker-->
+    <footer>
+       <section>
+           <h3> What does the color orange mean in your country?</h3>
+           <p> You can tell us here!</p>
+        </section>
+        <hr>
+        <form id="form">
+            <p>Name</p>
+            <input type="text" name="name">
+            
+            <p> Country</p>
+            <input type="text" name="country">
+            
+             <p> Date </p>
+            <input type="date" name="date">
+            
+             <p>Description</p>
+            <textarea name="description" form="form"></textarea>
+            
+            <br>
+            <br>
+            
+            <input type="submit" value="submit">
+    </form>
     
-    <article>
-       <h3>GELOOF</h3>
-       <img class="categorie" src="img/hindu-monk.jpg">
-        <h4>START</h4>
-        
-        <h2>INDIA</h2>
-        <p> What is the role of the color orange in religion? In Indian beliefs it plays a very big role....</p>
-    </article>
-    
-    <article>
-       <h3>KLEDING</h3>
-       <img class="categorie" src="img/india-kleding1.jpg">
-        <h4>START</h4>
-        
-        <h2>INDIA</h2>
-        <p> What is the role of the color orange in religion? In Indian beliefs it plays a very big role....</p>
-    </article>
-    
-    <article>
-       <h3>FESTIVAL</h3>
-       <img class="categorie" src="img/india-festival1.jpg">
-        <h4>START</h4>
-        
-        <h2>INDIA</h2>
-        <p> What is the role of the color orange in religion? In Indian beliefs it plays a very big role....</p>
-    </article>
-    
-    
-    
-    
+    </footer>
+
+
+
 </body>
+
+</html>
