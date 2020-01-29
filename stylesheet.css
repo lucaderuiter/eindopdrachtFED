@@ -529,8 +529,8 @@ footer form input[type=submit] {
         height: 3300px;
     }
     .lijn5 {
-        height: 450%;
-        margin-left: 300px;
+        height: 3300px;
+        margin-left: 320px;
     }
     main article .sectionrechts img {
         margin: 20px;
@@ -631,10 +631,10 @@ footer form input[type=submit] {
     /*detail pagina*/
     .lijn5 {
         margin-left: 500px;
-        height: 300%;
+        height: 2400px;
     }
     .lijn4 {
-        height: 300%;
+        height: 2400px;
     }
     main article {
         justify-content: center;
@@ -678,7 +678,7 @@ footer form input[type=submit] {
         height: 393px;
     }
     main article .sectionmidlinks {
-        margin-right: 43%;
+        margin-right: 38em;
         margin-top: -38em;
         margin-bottom: 5em;
         margin-left: -5px;
