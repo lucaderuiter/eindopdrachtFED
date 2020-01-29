@@ -30,9 +30,12 @@ nav li {
     text-decoration: underline;
 }
 
+
+/*
 nav a:visited {
     color: #ffffff;
 }
+*/
 
 nav li:hover {
     color: #2B025C;
@@ -444,6 +447,10 @@ footer form textarea {
     margin: 0px;
     width: 300px;
     height: 65px;
+}
+
+a {
+    color: #ffffff;
 }
 
 
