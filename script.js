@@ -15,20 +15,21 @@ filterbutton.addEventListener('click', toggleMenu);
 //de filter bar weer weg kunnen klikken
 document.querySelector('main').addEventListener("click", function(event) {
     if(filteractive==true){
-        filtermenu.style.visibility = "hidden";
+        filtermenu.style.marginTop = "-40em";
     
         filteractive = false;
     }
     
 });
 
+//https://www.w3schools.com/jsref/prop_style_margintop.asp
 function toggleMenu(){
     if(filteractive == false) {
-//        filtermenu.style.transitionTimingFunction = "ease-out";
-        filtermenu.style.visibility = "visible";
+
+        filtermenu.style.marginTop = "0px";
         filteractive = true;
     } else {
-        filtermenu.style.visibility = "hidden";
+        filtermenu.style.marginTop = "-40em";
         filteractive = false;
     }
 }

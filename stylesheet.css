@@ -49,10 +49,11 @@ nav a:hover {
     background-color: #D8C0FF;
     padding: 20px;
     width: 82%;
-    transition: margin 0.4s ease-out;
-    visibility: hidden;
+    transition: margin 0.5s ease-out;
+    visibility: visible;
     z-index: 5;
     margin-left: 2%;
+    margin-top: -40em;
 }
 
 #filtersection li:hover {
@@ -103,7 +104,6 @@ header section hr {
     border-style: ridge;
     border-color: #FFA152;
 }
-
 
 main {
     margin-top: 0px;
@@ -358,7 +358,7 @@ main article section img {
 }
 
 .lijn5 {
-     position: absolute;
+    position: absolute;
     z-index: -1;
     margin-top: -4em;
     margin-left: 20%;
@@ -456,6 +456,10 @@ footer form input[type=submit] {
         z-index: -1;
     }
     
+    .lijn2 {
+        height: fit-content;
+        margin-left: -120px;
+    }
     .intro {
         background-color: #FFA152;
         width: 80%;
@@ -469,7 +473,7 @@ footer form input[type=submit] {
     }
     main article li {
         width: 500px;
-        height: 18em;
+        height: 19em;
     }
     /*https://stackoverflow.com/questions/4264527/vertical-text-direction*/
     main article ul li h2 {
@@ -480,7 +484,7 @@ footer form input[type=submit] {
     main article li img {
         margin-top: -235px;
         width: 500px;
-        height: 18em;
+        height: 19em;
     }
 }
 
@@ -490,25 +494,20 @@ footer form input[type=submit] {
 @media screen and (min-width: 992px) {
     /* https://css-tricks.com/snippets/css/a-guide-to-flexbox/
 */
-    
     nav li {
         font-size: 1.5em;
     }
-    
     .orangeslice3 {
         width: 200px;
     }
-    
     .lijn1 {
         height: 1700px;
         margin-left: 550px;
     }
-    
     .lijn2 {
         margin-top: 90px;
-        height:
+        height: 1500px;
     }
-
     .intro {
         width: 60%;
         padding-left: 50px;
@@ -529,29 +528,34 @@ footer form input[type=submit] {
         padding: 0px;
     }
     
-    footer form {
-    margin-top: 30px;
-    text-align: center;
-}
+/*    categorie pagina*/
+    .lijn3 {
+       transform: rotate(90deg);
+        margin-top: -660px;
+    }
 
-footer form p {
-   display: inline-grid;
-    margin-left: 30px;
-    color: white;
-    font-family: helvetica neue;
-    font-weight: 100;
-    margin-bottom: 3px;
-}
     
-    footer form p:nth-child(7){
+/*    footer*/
+    footer form {
+        margin-top: 30px;
+        text-align: center;
+    }
+    footer form p {
+        display: inline-grid;
+        margin-left: 30px;
+        color: white;
+        font-family: helvetica neue;
+        font-weight: 100;
+        margin-bottom: 3px;
+    }
+    footer form p:nth-child(7) {
         display: block;
         margin-top: 40px;
     }
-
-footer form textarea {
-    display: block;
-    margin-left: 40%;
-    width: 300px;
-    height: 65px;
-}
+    footer form textarea {
+        display: block;
+        margin-left: 40%;
+        width: 300px;
+        height: 65px;
+    }
 }
