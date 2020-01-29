@@ -8,6 +8,7 @@ body {
     background-color: #FFD6B4;
 }
 
+/*navigatie balk*/
 nav ul {
     display: flex;
     flex-wrap: wrap;
@@ -41,7 +42,7 @@ nav a:hover {
     transition: 0.2s;
 }
 
-
+/*filter optie*/
 /*https://codepen.io/FED_HERK04/pen/oNggmXN*/
 
 #filtersection {
@@ -104,6 +105,8 @@ header section hr {
     border-style: ridge;
     border-color: #FFA152;
 }
+
+/*startpagina*/
 
 main {
     margin-top: 0px;
@@ -328,14 +331,14 @@ main article .sectionmidrechts {
     margin-top: 4em;
 }
 
-main article .sectionmidrechts h2{
+main article .sectionmidrechts h2 {
     font-family: helvetica neue;
     color: #2B025C;
     margin-bottom: -14px;
     font-size: 2em;
 }
 
-main article .sectionmidrechts p{
+main article .sectionmidrechts p {
     background-color: #FFA152;
     margin: 0px;
     padding-top: 40px;
@@ -480,19 +483,15 @@ footer form input[type=submit] {
         margin-left: 25%;
         z-index: -1;
     }
-    
     .lijn2 {
         height: fit-content;
         margin-left: -120px;
     }
-    
-    
     #filtersection {
-    width: 40%;
-    margin-left: 50%;
-    margin-top: -40em;
-}
-    
+        width: 40%;
+        margin-left: 50%;
+        margin-top: -40em;
+    }
     .intro {
         background-color: #FFA152;
         width: 80%;
@@ -519,53 +518,15 @@ footer form input[type=submit] {
         width: 500px;
         height: 19em;
     }
-}
+
+
 
 /*detail pagina*/
 
-/*
-.lijn5 {
-    height: fit-content;
-}
-
-main article .sectionrechts img {
-    width: 500px;
-    height: 500px;
-}
-*/
 
 
-/*
- .lijn5 {
-        height: fit-content;
-        margin-left: 32%;
-    }
     
-    .lijn4 {
-        height: fit-content;
-    }
-
-main article .sectionlinks {
-    margin-left: 7em;
-    width: 23em; 
 }
-
-main article .sectionrechts {
-    margin-left: 55%;
-    margin-top: -10em;
-}
-
-main article .sectionmidrechts {
-    margin-left: 39%;
-    margin-right: 11%;
-}
-
-main article .sectionmidlinks {
-    margin-left: 7em;
-    width: 23em;
-}
-*/
-
 
 
 
@@ -588,12 +549,11 @@ main article .sectionmidlinks {
         margin-top: 90px;
         height: 1500px;
     }
-    
     #filtersection {
-    width: 25%;
-    margin-left: 69%;
-    margin-top: -40em;
-}
+        width: 25%;
+        margin-left: 69%;
+        margin-top: -40em;
+    }
     .intro {
         width: 60%;
         padding-left: 50px;
@@ -613,43 +573,36 @@ main article .sectionmidlinks {
         flex-wrap: wrap;
         padding: 0px;
     }
-    
-/*    categorie pagina*/
+    /*categorie pagina*/
     .lijn3 {
-       transform: rotate(90deg);
+        transform: rotate(90deg);
         margin-top: -660px;
     }
-
-    
-/*    detail pagina*/
+    .lijn5 {
+        margin-left: 500px;
+        height: fit-content;
+    }
+    /*detail pagina*/
     main article {
         justify-content: center;
     }
-    
-    main article .sectionlinks {
-
-    }
-    
+    main article .sectionlinks {}
     main article .sectionlinks h2 {
         margin: 0px;
     }
-    
     main article .sectionlinks p {
         margin: 0px;
         height: 393px;
     }
-    
     main article .sectionrechts {
         margin: 0px;
         margin-left: 100px
     }
-    
     main article .sectionrechts img {
         margin: 0px;
         height: 500px;
         width: 500px;
     }
-    
     main article .sectionrechts h3 {
         position: relative;
         color: #2B025C;
@@ -663,28 +616,20 @@ main article .sectionmidlinks {
         margin-bottom: -15px;
         width: 100px;
     }
-    
     main article .sectionmidrechts {
         width: 250px;
         margin-top: 40px;
-        
     }
-    
-    main article .sectionmidrechts h2 {
-        
-    }
-    
+    main article .sectionmidrechts h2 {}
     main article .sectionmidrechts p {
         margin: 0px;
         height: 393px;
     }
-    
     main article .sectionmidlinks {
         margin-right: 43%;
         margin-top: -35em;
         margin-bottom: 5em;
     }
-    
     main article .sectionmidlinks h3 {
         position: relative;
         color: #2B025C;
@@ -697,16 +642,14 @@ main article .sectionmidlinks {
         padding-bottom: 10px;
         margin-bottom: -15px;
         width: 100px;
-
     }
-    
     main article .sectionmidlinks img {
         height: 500px;
         width: 500px;
     }
     
     
-/*    footer*/
+    /*    footer*/
     footer form {
         margin-top: 30px;
         text-align: center;
@@ -729,5 +672,4 @@ main article .sectionmidlinks {
         width: 300px;
         height: 65px;
     }
-
 }
