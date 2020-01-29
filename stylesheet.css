@@ -14,6 +14,7 @@ nav ul {
     justify-content: flex-end;
     align-items: center;
     margin-right: 23px;
+    z-index: 5;
 }
 
 nav li {
@@ -30,18 +31,58 @@ nav a:visited {
     color: #ffffff;
 }
 
+nav li:hover {
+    color: #2B025C;
+    transition: 0.2s;
+}
+
 nav a:hover {
     color: #2B025C;
     transition: 0.2s;
 }
 
+/*https://codepen.io/FED_HERK04/pen/oNggmXN*/
+#filtersection{
+    position: absolute;
+    background-color: #D8C0FF;
+    padding: 20px;
+    width: 86%;
+    transition: margin 0.4s ease-out;
+    visibility: hidden;
+}
+
+header section h2 {
+    font-family: helvetica neue;
+    color: #FFA152;
+}
+
+header section ul {
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+header section ul li {
+    list-style-type: none;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    width: 95px;
+    background-color: white;
+    padding: 10px;
+    font-family: helvetica neue;
+    color: #FFA152;
+    font-weight: 400;
+    text-align: center;
+    font-size: 14px;
+}
+
 main {
-    margin-top: -100px;
+    margin-top: 0px;
 }
 
 .orangeslice {
     position: relative;
-    bottom: -1em;
+    margin-top: -6em;
     /* left: -6em; */
     margin-left: -6em;
     z-index: -1;
@@ -60,17 +101,17 @@ main {
 .lijn1 {
     position: absolute;
     width: 10px;
-    margin-top: 3em;
+    margin-top: -4em;
     height: fit-content;
-    margin-left: 13%;
+    margin-left: 6%;
     z-index: -1;
 }
 
 .lijn2 {
     position: absolute;
-    margin-top: 35em;
-    height: 69em;
-    margin-left: -10em;
+    margin-top: 3em;
+    height: 96em;
+    margin-left: -20%;
     z-index: -1;
     width: 10px;
 }
@@ -166,7 +207,6 @@ main article li img:hover {
 /*categorie pagina*/
 
 .categorie h1 {
-    margin-top: 180px;
     font-style: normal;
     background-color: #FFA152;
     width: 3em;
@@ -212,32 +252,31 @@ main article {
     flex-wrap: wrap;
 }
 
-main article .gelooftekst {
-    justify-content: flex-start;
-    z-index: -5;
-    width: 500px;
+main article .sectionlinks {
+   width: 260px;
 }
 
-main article .geloofimg {
-    justify-content: flex-end;
-    width: 500px;
+main article .sectionrechts {
+    margin-left: 30%;
+    margin-top:-9em;
 }
 
 
 main article section h2 {
-    margin-top: 150px;
     font-family: helvetica neue;
     color: #2B025C;
-    margin-bottom: -10px;
+    margin-bottom: -14px;
     font-size: 2em;
 }
 
 main article section p {
     background-color: #FFA152;
     margin: 0px;
-    margin-right: 150px;
-    padding: 20px;
+    padding-top: 40px;
+    padding-right: 40px;
+    padding-left: 35px;
     padding-bottom: 100px;
+    font-size: 14px;
 }
 
 main article section h3 {
@@ -246,18 +285,16 @@ main article section h3 {
     font-family: helvetica neue;
     font-weight: 500;
     background-color: #FFA152;
-    margin-left: 360px;
-    padding: 20px;
-    padding-top:30px;
+    margin-left: 163px;
+    padding: 6px;
+    padding-top: 39px;
     padding-bottom: 10px;
     margin-bottom: -15px;
-    margin-top: -120px;
 }
 
 main article section img {
-    height: 300px;
+    height: 240px;
     width: 250px;
-    margin-left: 234px;
 }
 
 
