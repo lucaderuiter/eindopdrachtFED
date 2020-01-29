@@ -84,15 +84,26 @@ header section ul li {
     font-size: 14px;
 }
 
-
-/*
-header section h3 {
+header section button {
+    height: 34px;
+    width: 100px;
+    margin: -20px -50px;
+    margin-top: 19px;
+    position: relative;
+    top: 50%;
+    left: 50%;
     font-family: helvetica neue;
-    color: #FFA152;
-    background-color: 2B025C;
-    
+    font-size: 1em;
+    color: #2B025C;
+    font-weight: 600;
 }
-*/
+
+header section hr {
+    width: 16em;
+    border-style: ridge;
+    border-color: #FFA152;
+}
+
 
 main {
     margin-top: 0px;
@@ -192,11 +203,11 @@ main article ul li h2 {
     writing-mode: tb-rl;
     transform: rotate(180deg);
     margin-left: -26px;
-    margin-top: 60px;
+    margin-top: 90px;
     text-align: center;
     font-weight: 600;
     /* width: 92px; */
-    height: 150px;
+    height: 135px;
     z-index: 2;
     font-size: 2em;
     color: #2B025C;
@@ -205,7 +216,7 @@ main article ul li h2 {
 main article li img {
     margin-right: auto;
     margin-left: auto;
-    margin-top: -210px;
+    margin-top: -310px;
     /* margin-bottom: -18px; */
     width: 310px;
     height: 15em;
@@ -277,15 +288,15 @@ main article .sectionrechts {
     margin-top: -9em;
 }
 
-main article .sectionmidrechts{
+main article .sectionmidrechts {
     margin-left: 30%;
     margin-top: 4em;
 }
 
-main article .sectionmidlinks{
+main article .sectionmidlinks {
     width: 260px;
     margin-top: -9em;
-    margin-bottom:5em;
+    margin-bottom: 5em;
 }
 
 main article .sectionmidlinks h3 {
@@ -333,8 +344,26 @@ main article section h3 {
 }
 
 main article section img {
-    height: 240px;
+    height: 220px;
     width: 250px;
+}
+
+.lijn4 {
+    position: absolute;
+    z-index: -1;
+    margin-top: -4em;
+    margin-left: 83%;
+    width: 10px;
+    height: 300%;
+}
+
+.lijn5 {
+     position: absolute;
+    z-index: -1;
+    margin-top: -4em;
+    margin-left: 20%;
+    width: 10px;
+    height: 350%;
 }
 
 
@@ -418,9 +447,18 @@ footer form input[type=submit] {
         bottom: -30em;
         width: 120px;
     }
+    .lijn1 {
+        position: absolute;
+        width: 10px;
+        margin-top: -4em;
+        height: fit-content;
+        margin-left: 25%;
+        z-index: -1;
+    }
+    
     .intro {
         background-color: #FFA152;
-        width: 89%;
+        width: 80%;
     }
     main h1 {
         font-size: 4em;
@@ -429,117 +467,50 @@ footer form input[type=submit] {
         padding-right: 14px;
         font-size: 18px;
     }
-    
     main article li {
-    list-style-type: none;
-    background-color: #FFA152;
-    /* padding: 5em; */
-    /* padding-top: 81px; */
-    width: 310px;
-    height: 15em;
-    margin-top: 2em;
-    margin-left: auto;
-    margin-right: auto;
-    font-family: helvetica neue;
-    /* font-size: 1.3em; */
-}
-
-
-/*https://stackoverflow.com/questions/4264527/vertical-text-direction*/
-
-main article ul li h2 {
-    writing-mode: tb-rl;
-    transform: rotate(180deg);
-    margin-left: -26px;
-    margin-top: 60px;
-    text-align: center;
-    font-weight: 600;
-    /* width: 92px; */
-    height: 150px;
-    z-index: 2;
-    font-size: 2em;
-    color: #2B025C;
-}
-
-main article li img {
-    margin-right: auto;
-    margin-left: auto;
-    margin-top: -210px;
-    /* margin-bottom: -18px; */
-    width: 310px;
-    height: 15em;
-    z-index: 1;
-    position: initial;
-}
-
-main article li img:hover {
-    opacity: 60%;
-    transition: 0.2s;
-}
-    
-    
-    
+        width: 500px;
+        height: 18em;
+    }
     /*https://stackoverflow.com/questions/4264527/vertical-text-direction*/
-    main article li {
-        writing-mode: tb-rl;
-        transform: rotate(180deg);
-        list-style-type: none;
-        background-color: #FFA152;
-        padding: 5em;
-        width: 10em;
-        margin: 2em;
-        font-family: helvetica neue;
-        font-weight: 600;
-        color: #2B025C;
-        font-size: 1.3em;
+    main article ul li h2 {
+        margin-left: -30px;
+        margin-top: 100px;
+        font-size: 2.5em;
+    }
+    main article li img {
+        margin-top: -235px;
+        width: 500px;
+        height: 18em;
     }
 }
-
-
-
-
-
-
 
 
 /*DESKTOP MEDIAQUERIE*/
 
 @media screen and (min-width: 992px) {
-    body {
-        background-color: #FFD6B4;
-    }
     /* https://css-tricks.com/snippets/css/a-guide-to-flexbox/
 */
-    nav ul {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: flex-end;
-        align-items: center;
-    }
+    
     nav li {
-        list-style-type: none;
-        font-family: helvetica neue;
-        font-weight: 600;
-        padding-right: 30px;
-        color: #2B025C;
-        font-size: 1.3em;
+        font-size: 1.5em;
     }
-    nav {
-        margin-right: 120px;
+    
+    .orangeslice3 {
+        width: 200px;
     }
-    main {
-        margin-top: -100px;
+    
+    .lijn1 {
+        height: 1700px;
+        margin-left: 550px;
     }
-    main img {
-        position: relative;
-        bottom: -10em;
-        z-index: -1;
-        width: 250px;
+    
+    .lijn2 {
+        margin-top: 90px;
+        height:
     }
+
     .intro {
-        background-color: #FFA152;
-        box-sizing: border-box;
-        width: 80%;
+        width: 60%;
         padding-left: 50px;
         padding-right: 70px;
         padding-top: 20px;
@@ -547,40 +518,40 @@ main article li img:hover {
         margin-left: 5%;
     }
     main h1 {
-        color: #2B025C;
-        font-weight: 600;
         font-size: 5em;
-        margin-left: 2%;
-        margin-bottom: 0%;
-        margin-top: 25px;
-        font-style: italic;
-        font-family: helvetica neue;
     }
     main p {
-        color: white;
-        font-family: helvetica neue;
         font-size: 20px;
-        font-weight: 100;
-        margin-left: 13%;
-        margin-right: 20px;
     }
     main article ul {
         display: flex;
-        justify-content: space-around;
         flex-wrap: wrap;
+        padding: 0px;
     }
-    /*https://stackoverflow.com/questions/4264527/vertical-text-direction*/
-    main article li {
-        writing-mode: tb-rl;
-        transform: rotate(180deg);
-        list-style-type: none;
-        background-color: #FFA152;
-        padding: 5em;
-        width: 10em;
-        margin: 2em;
-        font-family: helvetica neue;
-        font-weight: 600;
-        color: #2B025C;
-        font-size: 1.3em;
+    
+    footer form {
+    margin-top: 30px;
+    text-align: center;
+}
+
+footer form p {
+   display: inline-grid;
+    margin-left: 30px;
+    color: white;
+    font-family: helvetica neue;
+    font-weight: 100;
+    margin-bottom: 3px;
+}
+    
+    footer form p:nth-child(7){
+        display: block;
+        margin-top: 40px;
     }
+
+footer form textarea {
+    display: block;
+    margin-left: 40%;
+    width: 300px;
+    height: 65px;
+}
 }
