@@ -186,7 +186,6 @@ main p {
 
 main article ul {
     display: flex;
-    /*     justify-content: space-around; */
     flex-wrap: wrap;
     padding: 0px;
 }
@@ -194,15 +193,12 @@ main article ul {
 main article li {
     list-style-type: none;
     background-color: #FFA152;
-    /* padding: 5em; */
-    /* padding-top: 81px; */
     width: 310px;
     height: 15em;
     margin-top: 2em;
     margin-left: auto;
     margin-right: auto;
     font-family: helvetica neue;
-    /* font-size: 1.3em; */
 }
 
 
@@ -215,7 +211,6 @@ main article ul li h2 {
     margin-top: 90px;
     text-align: center;
     font-weight: 600;
-    /* width: 92px; */
     height: 135px;
     z-index: 2;
     font-size: 2em;
@@ -226,7 +221,6 @@ main article li img {
     margin-right: auto;
     margin-left: auto;
     margin-top: -310px;
-    /* margin-bottom: -18px; */
     width: 310px;
     height: 15em;
     z-index: 1;
@@ -262,7 +256,6 @@ main article li img:hover {
     width: 44px;
     z-index: 3;
     background-color: #FFA152;
-    /* padding-top: 93px; */
     padding-top: 13px;
     position: relative;
 }
@@ -580,7 +573,7 @@ footer form input[type=submit] {
 }
 
 
-/*DESKTOP MEDIAQUERIE*/
+/*DESKTOP screen MEDIAQUERIE*/
 
 @media screen and (min-width: 992px) {
     /* https://css-tricks.com/snippets/css/a-guide-to-flexbox/
@@ -639,7 +632,6 @@ footer form input[type=submit] {
     main article {
         justify-content: center;
     }
-    main article .sectionlinks {}
     main article .sectionlinks h2 {
         margin: 0px;
     }
