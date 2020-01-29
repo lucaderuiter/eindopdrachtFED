@@ -6,17 +6,40 @@
     <title>FED site</title>
     <link rel="stylesheet" href="stylesheet.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <script type="text/javascript" src="script.js"> </script>
 </head>
 
 <body>
     <header>
         <nav>
             <ul>
-                <li> <a href="index.html">HOME</a></li>
-                <li>FILTER</li>
+                <li> <a href="index.html">HOME</a> </li>
+                <li id="filterknop">FILTER</li>
             </ul>
         </nav>
+
+        <section id="filtersection">
+            <h2> COUNTRIES</h2>
+            <ul>
+                <li>Netherlands</li>
+                <li>India</li>
+                <li>Mexico</li>
+                <li>Japan</li>
+            </ul>
+
+            <h2> CATEGORIES</h2>
+            <ul>
+                <li>Clothes</li>
+                <li>Religion</li>
+                <li>Festival</li>
+                <li>All</li>
+            </ul>
+
+            <h2> PREFERENCE</h2>
+            <ul>
+                <li>Faces</li>
+                <li>Objects</li>
+            </ul>
+        </section>
     </header>
     <main>
         <article>
@@ -36,7 +59,7 @@
         </article>
         
         <article>
-            <section class="sectionlinks">
+            <section class="sectionmidrechts">
                 <h2>INDIA</h2>
                 <p>Designers and devout Hindus have something in common: They both know color plays an important role in creating an environment that enhances mood and well-being. In Hinduism, proper use of color is believed to keep people happy and cheerful. Hindu artists use color when representing the deities to symbolize their essential qualities.
                 <br> <br>
@@ -44,7 +67,7 @@
                 </p>
             </section>
 
-            <section class="sectionrechts">
+            <section class="sectionmidlinks">
                 <h3> GELOOF </h3>
                 <img src="img/hindu-monk-2.jpg" alt="geloof">
             </section>
@@ -101,5 +124,7 @@
 
 
 </body>
-
+<script src="script.js">
+    </script>
+    
 </html>

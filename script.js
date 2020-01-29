@@ -1,3 +1,5 @@
+//https://codepen.io/FED_HERK04/pen/oNggmXN
+
 var button = document.getElementById("filterknop");
 var filteractive = false;
 
@@ -13,8 +15,6 @@ function toggleMenu(){
         filtermenu.style.visibility = "hidden"
         filteractive = false;
     }
-    
-    
     
 }
 
