@@ -13,18 +13,18 @@ filterbutton.addEventListener('click', toggleMenu);
 
 //https://codepen.io/StrengthandFreedom/pen/LeyjXG
 //de filter bar weer weg kunnen klikken
-document.querySelector('main').addEventListener("click", function(event) {
-    if(filteractive==true){
+document.querySelector('main').addEventListener("click", function (event) {
+    if (filteractive == true) {
         filtermenu.style.marginTop = "-40em";
-    
+
         filteractive = false;
     }
-    
+
 });
 
 //https://www.w3schools.com/jsref/prop_style_margintop.asp
-function toggleMenu(){
-    if(filteractive == false) {
+function toggleMenu() {
+    if (filteractive == false) {
 
         filtermenu.style.marginTop = "0px";
         filteractive = true;
@@ -33,8 +33,3 @@ function toggleMenu(){
         filteractive = false;
     }
 }
-
-
-
-
-

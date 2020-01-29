@@ -8,7 +8,9 @@ body {
     background-color: #FFD6B4;
 }
 
+
 /*navigatie balk*/
+
 nav ul {
     display: flex;
     flex-wrap: wrap;
@@ -42,7 +44,10 @@ nav a:hover {
     transition: 0.2s;
 }
 
+
 /*filter optie*/
+
+
 /*https://codepen.io/FED_HERK04/pen/oNggmXN*/
 
 #filtersection {
@@ -105,6 +110,7 @@ header section hr {
     border-style: ridge;
     border-color: #FFA152;
 }
+
 
 /*startpagina*/
 
@@ -327,7 +333,7 @@ main article .sectionrechts img {
 }
 
 main article .sectionmidrechts {
-    margin-left: 30%;
+    margin-left: 42%;
     margin-top: 4em;
 }
 
@@ -365,7 +371,7 @@ main article .sectionmidlinks h3 {
     padding-top: 39px;
     padding-bottom: 10px;
     margin-bottom: -15px;
-    width: 82px;
+    width: 100px;
 }
 
 main article .sectionmidlinks img {
@@ -379,7 +385,7 @@ main article .sectionmidlinks img {
     margin-top: -4em;
     margin-left: 83%;
     width: 10px;
-    height: 300%;
+    height: 310%;
 }
 
 .lijn5 {
@@ -388,7 +394,7 @@ main article .sectionmidlinks img {
     margin-top: -4em;
     margin-left: 20%;
     width: 10px;
-    height: 350%;
+    height: 310%;
 }
 
 
@@ -518,16 +524,60 @@ footer form input[type=submit] {
         width: 500px;
         height: 19em;
     }
-
-
-
-/*detail pagina*/
-
-
-
-    
+    /*detail pagina*/
+    .lijn4 {
+        height: 3300px;
+    }
+    .lijn5 {
+        height: 450%;
+        margin-left: 300px;
+    }
+    main article .sectionrechts img {
+        margin: 20px;
+        width: 400px;
+        height: 400px;
+        margin-top: -20px;
+    }
+    main article .sectionrechts h3 {
+        width: 150px;
+        margin: 20px;
+        font-size: 1.7em;
+        padding-left: 35px;
+    }
+    main article .sectionlinks {
+        margin-left: 40px;
+        font-size: 1.5em;
+    }
+    main article .sectionlinks p {
+        font-size: 16px;
+    }
+    main article .sectionmidlinks {
+        margin-left: 40px;
+    }
+    main article .sectionmidlinks h3 {
+        margin: 20px;
+        font-size: 1.7em;
+        padding-right: 55px;
+        margin-left: 60px;
+    }
+    main article .sectionmidlinks img {
+        margin: 20px;
+        width: 400px;
+        height: 400px;
+        margin-top: -20px;
+        margin-left: 60px;
+    }
+    main article .sectionmidrechts p {
+        font-size: 16px;
+        margin-left: 120px;
+    }
+    main article .sectionmidrechts h2 {
+        margin-left: 120px;
+    }
+    main article .sectionmidrechts {
+        margin-right: 20px;
+    }
 }
-
 
 
 /*DESKTOP MEDIAQUERIE*/
@@ -578,11 +628,14 @@ footer form input[type=submit] {
         transform: rotate(90deg);
         margin-top: -660px;
     }
+    /*detail pagina*/
     .lijn5 {
         margin-left: 500px;
-        height: fit-content;
+        height: 300%;
     }
-    /*detail pagina*/
+    .lijn4 {
+        height: 300%;
+    }
     main article {
         justify-content: center;
     }
@@ -614,21 +667,22 @@ footer form input[type=submit] {
         padding-top: 39px;
         padding-bottom: 10px;
         margin-bottom: -15px;
-        width: 100px;
+        width: 5em;
     }
     main article .sectionmidrechts {
         width: 250px;
-        margin-top: 40px;
+        margin-top: 110px;
+        margin-right: -120px;
     }
-    main article .sectionmidrechts h2 {}
     main article .sectionmidrechts p {
         margin: 0px;
         height: 393px;
     }
     main article .sectionmidlinks {
         margin-right: 43%;
-        margin-top: -35em;
+        margin-top: -38em;
         margin-bottom: 5em;
+        margin-left: -5px;
     }
     main article .sectionmidlinks h3 {
         position: relative;
@@ -636,19 +690,19 @@ footer form input[type=submit] {
         font-family: helvetica neue;
         font-weight: 500;
         background-color: #FFA152;
-        margin-left: 20px;
+        margin-left: 30px;
         padding: 6px;
         padding-top: 39px;
         padding-bottom: 10px;
         margin-bottom: -15px;
-        width: 100px;
+        width: 5em;
     }
     main article .sectionmidlinks img {
         height: 500px;
         width: 500px;
+        margin-left: 30px;
+        margin-top: 16px;
     }
-    
-    
     /*    footer*/
     footer form {
         margin-top: 30px;
